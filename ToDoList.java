@@ -159,10 +159,6 @@ public class ToDoList{
         int randomTask = (int)(Math.random()*taskList.size());
         String radnomString = taskList.get(randomTask);
         System.out.println("random task: "+radnomString);
-        
-        // Random random = new Random();
-        // int randomIndex = random.nextInt(taskList.size());
-        // String randomTask = taskList.get(randomIndex);
-        // System.out.println("you can just do " + randomTask);
+    
     } 
 }
